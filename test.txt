@@ -4,7 +4,9 @@ As developer, I want a tool to list unused AWS resources to save costs. The tool
 
 Write the tool using Python 3.
 
-Implement some automatic tests to verify that the tool works as expected. Use Terraform to create resources to validate the tool works as expected.
+Implement some automatic tests to verify that the tool works as expected. 
+
+Use Terraform to create resources to validate the tool works as expected.
 
 Package the application as a Docker image, so the user doesn't have to install python and other packages locally.
 
