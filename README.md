@@ -1,4 +1,4 @@
-# Flugel
+# Python Code to get not matched tags in S3 and EC2 instances
 
 This is a python3 script developed using boto3, an AWS SDK to interact with AWS resources. Also you will find a terraform files to create infrastructure on AWS and test the python script.
 
