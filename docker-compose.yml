@@ -1,0 +1,15 @@
+version: '3'
+services:
+
+  python:
+    build: 
+      context: .
+    container_name: python
+    volumes:
+      - .:/usr/src/app
+    command: python script.py
+# Complete your AWS KEYS in variables to run this docker-compose
+    environment:
+      - AWS_ACCESS_KEY_ID=<YOUR_AWS_KEY_ID>
+      - AWS_SECRET_ACCESS_KEY=<YOUR_AWS_SECRET_ACCESS_KEY>
+      - AWS_DEFAULT_REGION=<REGION>
